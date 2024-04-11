@@ -40,7 +40,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             $update_stmt->close();
 
             $_SESSION["username"] = $username;
-            header("Location: ai.html");
+            header("Location: test.html");
             exit();
         }
     } else {
